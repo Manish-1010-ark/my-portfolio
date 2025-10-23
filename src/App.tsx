@@ -19,6 +19,8 @@ import {
   Rocket,
 } from "lucide-react";
 
+import profilePhoto from "./assets/Profile-Photo-Manish.jpg";
+
 // TypeScript Interfaces
 interface ProjectCardProps {
   title: string;
@@ -499,11 +501,17 @@ const App: React.FC = () => {
             </div>
             <div className="order-1 md:order-2 flex justify-center">
               <div className="relative">
+                {/* This is the background glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl blur-3xl opacity-20 animate-pulse"></div>
+
+                {/* This is the main frame for your photo */}
                 <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden border-2 border-orange-500/30 shadow-2xl shadow-orange-500/20">
-                  <div className="w-full h-full bg-gradient-to-br from-orange-500/20 via-gray-800/50 to-blue-500/20 flex items-center justify-center text-8xl backdrop-blur-sm">
-                    👨‍💻
-                  </div>
+                  {/* This is your profile photo */}
+                  <img
+                    src={profilePhoto}
+                    alt="Manish Shivam Profile Photo"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
