@@ -8,14 +8,14 @@ import {
   Menu,
   X,
   Code,
-  Database,
+  // Database,
   Server,
   Smartphone,
   Award,
-  Briefcase,
+  // Briefcase,
   GraduationCap,
   Zap,
-  Target,
+  // Target,
   Rocket,
 } from "lucide-react";
 
