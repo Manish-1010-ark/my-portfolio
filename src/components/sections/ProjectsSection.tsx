@@ -23,7 +23,7 @@ const ProjectsSection: React.FC = () => {
         "Tailwind CSS",
         "Vite",
       ],
-      githubUrl: "https://github.com/Manish-1010-ark",
+      githubUrl: "https://github.com/Manish-1010-ark/TeamStream",
       liveUrl: "https://team-stream-wine.vercel.app/",
       featured: true,
     },
@@ -42,7 +42,8 @@ const ProjectsSection: React.FC = () => {
         "Nginx",
         "Docker",
       ],
-      githubUrl: "https://github.com/Manish-1010-ark",
+      githubUrl: "https://github.com/Manish-1010-ark/real-estate-website",
+      liveUrl: "https://wallstreetllp.com/",
       featured: true,
     },
     {
@@ -59,7 +60,7 @@ const ProjectsSection: React.FC = () => {
         "LiveData",
         "Android SDK",
       ],
-      githubUrl: "https://github.com/Manish-1010-ark",
+      githubUrl: "https://github.com/Manish-1010-ark/Battery_Info_App",
       featured: true,
     },
     {
@@ -69,7 +70,7 @@ const ProjectsSection: React.FC = () => {
         "tasks using node-cron. Features MongoDB schema for task metadata and Express/EJS " +
         "dashboard for real-time monitoring.",
       techStack: ["Node.js", "Express", "MongoDB", "node-cron", "EJS"],
-      githubUrl: "https://github.com/Manish-1010-ark",
+      githubUrl: "https://github.com/Manish-1010-ark/php-task-scheduler",
     },
     {
       title: "AI-Chat (ChatGPT Clone)",
@@ -85,7 +86,7 @@ const ProjectsSection: React.FC = () => {
         "Android CRUD application for inventory tracking with intelligent low-stock alerts " +
         "and offline data synchronization capabilities. Built with modern Android architecture components.",
       techStack: ["Kotlin", "SQLite", "Architecture Components", "Android SDK"],
-      githubUrl: "https://github.com/Manish-1010-ark",
+      githubUrl: "https://github.com/Manish-1010-ark/Home_Pantry",
     },
     {
       title: "Internet Speed Test App",
